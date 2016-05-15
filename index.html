@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en" class=" js csstransitions js no-touch csstransforms3d csstransitions">
+<head>
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
+
+  <script src="lib/jquery-1.10.2.min.js"></script>
+  <script src="lib/scrollize.js"></script>
+  <script>
+  $(document).ready( function() {
+    $('#story1').scrollize({
+      initY: 0,
+      deltaY: 172
+    });
+
+    $('#story2').scrollize({
+      initY: -72,
+      deltaY: 200
+    });
+
+    $('#story3').scrollize({
+      initY: 0,
+      deltaY: 300
+    });
+  });
+  </script>
+
+</head>
+<body>
+
+  <div id="story1" class="slide">
+      <h2>Scrollize.js</h2>
+      <p>a minimalist jquery plugin for parallax effect
+  </div>
+  <div class="heading"><h2>Parallax is an awesome effect</h2></div>
+
+
+  <div id="story2" class="slide left">
+      <h2>Outdoor</h2>
+      <p><i>I do believe it's time for another adventure</i></p>
+  </div>
+
+  <div id="story3" class="slide right">
+      <h2>Vintage</h2>
+      <p><i>this moment will just be another story someday</i></p>
+  </div>
+
+  <div id="footer" class="heading">
+    <h2>Thank you!</h2>
+    <p style="width:80%">
+      This plugin was developed for two reasons, to be <br/><big>simple & responsive</big>.<br/><br/>
+
+      It doesn't alter or introduce any attribute on your markup except for the
+      background position of the element(s) that you request to do parallax.<br/>
+
+      Its responsiveness means that it works seamlessly on mobile browsers too
+      which many seem to prefer turning off.</p>
+
+    <a class="download" target="_blank" href="http://hamzeen.github.io/scrollize.js">Download</a>
+    <p>developed by <a target="_blank" href="http://hamzeen.github.io">Hamzeen Hameem</a>, &copy; 2016-2020 released under MIT license
+      <!-- https://www.youtube.com/watch?gl=SG&v=kN-eCBAOw60&hl=en-GB //-->
+  </div>
+
+</body>
+</html>

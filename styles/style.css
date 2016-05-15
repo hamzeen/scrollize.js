@@ -1,0 +1,120 @@
+
+/* Base Styles */
+@font-face {
+  font-family:"Open Sans Condensed Light";
+  src:url("OpenSans-CondLight.eot?") format("eot"),
+  url("OpenSans-CondLight.woff") format("woff"),
+  url("OpenSans-CondLight.ttf") format("truetype"),
+  url("OpenSans-CondLight.svg#OpenSans-CondensedLight")
+  format("svg");font-weight:normal;font-style:normal;
+}
+
+body,html {
+  border 0;margin:0;
+  /*background: #640533;*/
+  background:#363636;
+  color:#fff;
+  font-family:"Open Sans Condensed Light";
+  line-height: 134%;
+  color: #f2f2f2;
+  font-style: normal;
+
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 300;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none; }
+
+a, a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Open Sans Condensed Light", Helvetica, sans-serif;
+  line-height: 150%;
+  font-style: bold;
+  font-weight:200;
+  font-size: 43px;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.heading {
+  clear:both;
+  background: rgb(0,0,0);
+  height: 100%;
+}
+
+.heading h2 {
+  margin: 0;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family: "Open Sans Condensed Light", Helvetica, sans-serif;
+  line-height: 150%;
+  font-style: bold;
+  font-weight:200;
+  font-size: 30px;
+}
+
+.slide {
+  height:728px;
+  padding: 20px 30px 0px 30px;
+}
+
+#story1 {
+  width: 100%;
+  background-image: url(../001.jpeg);
+  background-position: 50% 0px;
+}
+#story2 {
+  width: 100%;
+  background-image: url(../002.jpeg);
+  background-position: 50% -72px;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+#story3 {
+  width: 100%;
+  background-image: url(../003.jpeg);
+  background-position: 50% 0px;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+#footer p{
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#footer {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+a.download {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 25px 0px;
+    padding: 15px 10px;
+    width: 180px;
+    background: #0099cc;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+    line-height: 20px;
+    cursor: pointer;
+}
