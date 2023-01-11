@@ -76,11 +76,13 @@ h2 {
   width: 100%;
   background-image: url(../001.jpeg);
   background-position: 50% 0px;
+  background-size: cover;
 }
 #story2 {
   width: 100%;
   background-image: url(../002.jpeg);
   background-position: 50% -72px;
+  background-size: cover;
   padding-left: 10%;
   padding-top: 10%;
 }
@@ -88,6 +90,7 @@ h2 {
   width: 100%;
   background-image: url(../003.jpeg);
   background-position: 50% 0px;
+  background-size: cover;
   padding-right: 10%;
   padding-top: 10%;
 }
